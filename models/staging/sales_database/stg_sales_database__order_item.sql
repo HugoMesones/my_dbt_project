@@ -1,7 +1,6 @@
 select CONCAT(order_id, '_', product_id) AS order_item_id,
  order_id,
  product_id,
- 1 AS column_1,
  seller_id,
  DATETIME(pickup_limit_date, "Europe/Paris") AS picked_up_limited_at,
  price as unit_price,
