@@ -1,6 +1,6 @@
 select
     order_id,
-    user_name AS user_id_x,
+    user_name AS user_id,
     order_status,
     DATETIME(order_date, "Europe/Paris") AS order_created_at_x,
     DATETIME(order_approved_date, "Europe/Paris") AS order_approved_at_x,
