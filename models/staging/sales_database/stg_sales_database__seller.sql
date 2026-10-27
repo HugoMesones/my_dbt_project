@@ -1,4 +1,4 @@
-select seller_id AS seller_name,
+select seller_id,
  seller_zip_code,
  seller_city,
  seller_state,
